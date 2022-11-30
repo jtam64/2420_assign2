@@ -50,10 +50,10 @@ Give both users sudo privileges
 5. Create 2 folders. One folder will be named html and the other src. The html folder will store the html files and the src folder will store the source code. Create appropriate index.html and js files in their respective folders. Ensure you install the necessary dependencies for the js files.
 ##### you must initialize npm and install fastify
 ![HTML](images/html.png)
-![SRC](images/js.png)
+![SRC](images/js.png)  
 6. Create a caddyfile called Caddyfile
-![Caddyfile](images/caddyconfig.png)
-7. Install npm with Volta on both droplets with
+![Caddyfile](images/caddyconfig.png)  
+7. Install npm with Volta on both droplets with  
 `curl https://get.volta.sh | bash`
 `source ~/.bashrc`
 `volta install node`
