@@ -62,13 +62,13 @@ Give both users sudo privileges
 8. Move the html and src directories you made in step 5 to the /var/www/ folder on both machines.
 Then move the Caddyfile to /etc/caddy/
 9. Create a unit file in `/etc/systemd/system/caddy.service`
-![Service](images/caddyservice.png)
+![Service](images/caddyservice.png)  
 10. Create another unit file in `/etc/systemd/system/hello_web.service`
-![Service](images/webappservice.png)
+![Service](images/webappservice.png)  
 11. Start and enable both services using systemctl. Make sure you daemon-reload before starting the services
-12. Do `sudo systemctl reload caddy` and test if the application is working by typing in the load balancer IP address in your browser.
+12. Do `sudo systemctl reload caddy` and test if the application is working by typing in the load balancer IP address in your browser.  
 ![Load Balancer](images/loadbalancer.png)
-![Loab Balancer 2](images/loadbalancer2.png)
+![Loab Balancer 2](images/loadbalancer2.png)  
 ##### Reloading the page should show both droplets being used
 
 # Step 7 CELEBRATE
