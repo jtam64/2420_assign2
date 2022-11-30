@@ -1,0 +1,15 @@
+[Unit]
+Description=Start app with ndoe
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/home/ubuntu/.volta/bin/node /var/www/src/index.js
+User=ubuntu
+Group=ubuntu
+RestartSec=10
+TimeoutStopSec=90
+SyslogIdentifier=hello_web
+
+[Install]
+WantedBy=multi-user.target
