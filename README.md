@@ -51,7 +51,7 @@ Give both users sudo privileges
 ##### you must initialize npm and install fastify
 ![HTML](images/html.png)
 ![SRC](images/js.png)  
-6. Create a caddyfile called Caddyfile
+6. Create a caddyfile called Caddyfile  
 ![Caddyfile](images/caddyconfig.png)  
 7. Install npm with Volta on both droplets with  
 `curl https://get.volta.sh | bash`
